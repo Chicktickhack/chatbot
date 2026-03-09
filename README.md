@@ -54,7 +54,7 @@ Tempelkan ini di layout yang ingin ditampilkan chatbot
 
 # 💾 Chat Record Storage
 
-Plugin ini dapat menyimpan riwayat percakapan chatbot ke dalam database menggunakan tabel:
+Plugin ini menyediakan penyimpanan riwayat percakapan chatbot ke dalam database menggunakan tabel:
 
 ```
 chat_records
