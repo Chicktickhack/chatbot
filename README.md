@@ -45,11 +45,10 @@ Laravel akan secara otomatis mendeteksi package melalui fitur **Package Auto Dis
 
 # 🚀 Usage
 
-Setelah package berhasil di-install, chatbot akan otomatis aktif di dalam aplikasi Laravel.
+Tempelkan ini di layout yang ingin ditampilkan chatbot
 
-Widget chatbot akan muncul pada halaman website dan siap menerima interaksi dari pengguna.
-
-Tidak diperlukan konfigurasi tambahan untuk penggunaan dasar.
+    @yield('content')
+    @chatbot
 
 ---
 
