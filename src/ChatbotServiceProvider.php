@@ -1,6 +1,6 @@
 <?php
 
-namespace Aranus\Chatbot;
+namespace Costumerservice\Chatbot;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
@@ -43,7 +43,7 @@ class ChatbotServiceProvider extends ServiceProvider
 
             if ($this->app->runningInConsole()) {
         $this->commands([
-            \Aranus\Chatbot\Console\InstallChatbot::class,
+            \Costumerservice\Chatbot\Console\InstallChatbot::class,
         ]);
     }
     
