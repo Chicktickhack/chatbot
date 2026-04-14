@@ -1,6 +1,6 @@
 {
   "name": "costumerservice/chatbot",
-  "description": "Aranus Chatbot Laravel Package",
+  "description": "Costumer Service Open Source Package (by Fasa)",
   "type": "library",
   "license": "MIT",
   "autoload": {
