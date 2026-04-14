@@ -1,17 +1,17 @@
 {
-  "name": "aranus/chatbot",
+  "name": "costumerservice/chatbot",
   "description": "Aranus Chatbot Laravel Package",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Aranus\\Chatbot\\": "src/"
+      "Costumerservice\\Chatbot\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Aranus\\Chatbot\\ChatbotServiceProvider"
+        "Costumerservice\\Chatbot\\ChatbotServiceProvider"
       ]
     }
   },
