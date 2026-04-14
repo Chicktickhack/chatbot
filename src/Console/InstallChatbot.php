@@ -1,6 +1,6 @@
 <?php
 
-namespace Aranus\Chatbot\Console;
+namespace Costumerservice\Chatbot\Console;
 
 use Illuminate\Console\Command;
 
@@ -8,11 +8,11 @@ class InstallChatbot extends Command
 {
     protected $signature = 'chatbot:install';
 
-    protected $description = 'Install Aranus Chatbot package';
+    protected $description = 'Install Costumerservice Chatbot package';
 
     public function handle()
     {
-        $this->info('Installing Aranus Chatbot...');
+        $this->info('Installing Costumerservice Chatbot...');
 
         $this->call('vendor:publish', [
             '--tag' => 'chatbot-assets'
